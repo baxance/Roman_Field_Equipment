@@ -1,0 +1,16 @@
+body {background-color: maroon;}
+
+header, footer {text-align: center}
+h1, h3 {border-bottom: solid goldenrod;}
+
+li {display: inline; border-bottom: solid 3px goldenrod;
+    text-shadow: 2px 2px 5px whitesmoke;}
+
+p {border:5px solid goldenrod;
+    background-color: whitesmoke;}
+
+.library {text-align: center}
+.library {border-style:double; padding: 10px;}
+
+img {border: 5px solid goldenrod}
+
