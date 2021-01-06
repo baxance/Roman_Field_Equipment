@@ -4,7 +4,8 @@ header, footer {text-align: center}
 h1, h3 {border-bottom: solid goldenrod;}
 
 li {display: inline; border-bottom: solid 3px goldenrod;
-    text-shadow: 2px 2px 5px whitesmoke;}
+    text-shadow: 2px 2px 5px whitesmoke;
+    padding: 50px;}
 
 p {border:5px solid goldenrod;
     background-color: whitesmoke;}
