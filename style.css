@@ -1,14 +1,22 @@
-body {background-color: maroon;}
+body { 
+        background: url("https://www.alexgallego.com/IMAGES_5/background2.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
 
-header, footer {text-align: center}
+header, footer {text-align: center;
+    background: #A40000;
+    background: -moz-linear-gradient(top, #A40000 0%, #CB1443 55%, #501F75 100%);
+    background: -webkit-linear-gradient(top, #A40000 0%, #CB1443 55%, #501F75 100%);
+    background: linear-gradient(to bottom, #A40000 0%, #CB1443 55%, #501F75 100%);}
 h1, h3 {border-bottom: solid goldenrod;}
 
-li {display: inline; border-bottom: solid 3px goldenrod;
-    text-shadow: 2px 2px 5px whitesmoke;
-    padding: 50px;}
+li {display: inline; text-shadow: 2px 2px 5px whitesmoke;}
 
 p {border:5px solid goldenrod;
-    background-color: whitesmoke;}
+    background-color: grey;}
 
 .library {text-align: center}
 .library {border-style:double; padding: 10px;}
