@@ -1,15 +1,20 @@
-function loyalty(){
-    let question = confirm(" Republic or Empire?");
-if (question==true) {
-    document.write('The Optimates are with you, Citizen');
-}   else {
-    document.write('You have the support of the people!')
-}
+function printNumbers(){
+    for(let i = 0; i < 10; i++){
+        document.write('<li>' + i + '</li>')
+    }
 }
 
-// let question = confirm(" Republic or Empire?");
-// if (question==true) {
-//     document.write('The Optimates are with you, Citizen');
-// }   else {
-//     document.write('You have the support of the people!');
-// }
+let correctAnswer = 34;
+
+function guess(){
+    let userAnswer = prompt('Please select a number 1 - 100');
+    // Error checking later
+    while (userAnswer < 1 || userAnswer > 100){
+        userAnswer = prompt('Incorrect. Please select a number 1 - 100');
+    }
+    let numberOfGuesses = 8
+    for(let i = 0; i < numberOfGuesses; i++)}
+
+    }
+
+}
