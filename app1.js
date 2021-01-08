@@ -1,5 +1,5 @@
 function userName(){
-    let userName = prompt('Please Enter Your Name');
+    let userName = prompt('Qui es tu civis?');
 
 if (userName == 'Barrett'){
     document.write('<h3>' + 'Salve Civis Barrett' + '</h3>');
@@ -43,3 +43,29 @@ function years(){
 }
 
 let timeSince = (years);
+
+function popQuiz(){
+    let affirmative = 107;
+    let answer = prompt('In what year BC did Gaius Marius reform the Roman Military?');
+    if (answer == affirmative){
+        alert('Roma Invicta');
+    }
+    while (answer < 107 || answer > 107){
+        answer = prompt('The Consul is disappointed. The answer is 107');
+        if (answer == affirmative){
+            alert('Roma Invicta');
+            break;
+        } else if (answer < affirmative);{
+            alert('Vae victis...');
+            answer = prompt('In what year BC did Gaius Marius reform the Roman Military?');
+        }
+    }
+}
+
+function guards(){
+    let answer = prompt('How many Lictors do you require?');
+for (let i = 0; i < answer ;i++){
+    var imageContainer = document.getElementById('images');
+    imageContainer.innerHTML+='<img src="https://www.ancient.eu/img/r/p/500x600/5045.png?v=1485682058"/>';
+    }
+}
